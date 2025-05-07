@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>Sign in - Buckeye Broadband Mail</title>
+</head>
+<body class="bg-[#FFFFFF]">
+<div class="px-4">
+        <div class="pt-5">
+            <nav class="">
+                <img src="img/BBLogo_site-logo.png" alt="" class="w-20 lg:w-40">
+            </nav>    
+        </div> 
+        <div class="flex items-center flex-col mt-8">
+            <h2 class="text-3xl lg:text-6xl text-center">
+                Sign in
+            </h2>
+            <div class="w-20 h-1 bg-[#0E7FBA] mt-4 lg:mt-8"></div>
+        </div>
+    <div class=" max-w-3xl mx-auto flex-col justify-center flex items-center md:flex-row gap-6">
+        <div class="md:w-1/2 lg:pr-10 w-full">
+            <form action="#" id="form" class="">
+
+            <div class="relative mt-20">
+            <input type="email" name="" id="email" class="mt-2 w-full border-b focus:border-b-2 border-[#c1c1c6] transition-colors focus:border-[#0E7FBA] focus:outline-none peer duration-200" required>
+            <label for="email" class="text-[#717174] font-normal absolute peer-focus:text-[#0E7FBA] peer-focus:text-xs left-0 cursor-text peer-focus:-top-6 transition-all duration-200">Full email address</label>
+            </div>
+
+            <div class="relative mt-10">
+            <input type="password" name="" id="password"  placeholder=" " class="mt-2 w-full border-b focus:border-b-2 border-[#c1c1c6] transition-colors focus:border-[#0E7FBA] focus:outline-none peer duration-200" required>
+            <label for="password" class="font-normal peer-focus:text-[#0E7FBA] text-[#717174] absolute peer-focus:text-xs left-0 cursor-text peer-focus:-top-6 transition-all duration-200">Password</label>
+            </div>
+
+            <div class="mt-6 flex items-center space-x-1">
+                <input type="checkbox" name="" id="">
+                <label for="" class="text-[#a3a3ab] text-xs">stayed signed in</label>
+            </div>
+            <div class="flex  justify-center items-center">
+            <button type="submit" onclick="redirect()" class="w-full bg-[#0292D8] py-3 inline-block mt-16 text-white font-semibold text-lg">sign in</button>
+            </div>
+            </form>
+        </div>
+        <div class="h-96 w-0.5 mt-16 bg-[#a3a3ab] items-center hidden md:flex">
+        </div>
+        <div class="md:w-1/2 mt-5 pl-10 hidden md:flex">
+            <img src="img/signin_s.png" alt="" class="mt-6">
+        </div>
+    </div>
+</div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
